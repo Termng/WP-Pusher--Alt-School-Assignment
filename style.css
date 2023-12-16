@@ -1,0 +1,182 @@
+:root{
+    --accent-color: #1D2C3C;
+    --white-text: #fff;
+    --blue-bcolor: #1179BF;
+    --green-color: #038E7D;
+    --dark-blue: #548BC5;
+    --form-color: #EDEFF2;
+    --placeholder: #646E7A;
+    --main-bg: #F5F8FA;
+
+}  
+  
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800;900&family=Readex+Pro:wght@200;300;400;500;600;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    background-color: var(--main-bg);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+
+
+label{
+    padding-bottom: 7px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+::placeholder{
+    color:var(--placeholder);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* START OF NAV STYLES */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #E0E6EA;;
+    padding: 30px 40px;
+    margin-inline: 2rem;
+}
+
+.navLinks{
+    display: flex;
+    list-style: none;
+    gap: 42px;
+}
+.navLinks li a{
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+/* END OF NAV STYLES */
+
+.left h2{
+    color: var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 82px;
+}
+
+.circle-value{
+    border-radius: 50% ;
+    width: 40px;
+    height: 40px;
+    border: 3px solid var(--dark-blue);
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--dark-blue);
+    aspect-ratio: 1/1;
+}
+
+.form-title{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 27px;
+
+}
+
+.form-title p:last-of-type{
+    color: #1D2C3C;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+}
+
+.name-side{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 15px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+}
+
+.grey{
+    background-color: var(--form-color);
+    padding: 10px;
+    height: 36px;
+    border: none;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.emailSize{
+    max-width: 370px;
+}
+
+
+.atm{
+    display: flex;
+    align-items: center;
+}
+
+.debit-card{
+    display: flex;
+    max-width: 483px;
+}
+
+.num{
+    width: 100%;
+}
+
+.mm, .cv{
+    max-width: 80px;
+}
+
+.mm::placeholder, .cv::placeholder{
+    text-align: right;
+}
+
+
+
+
+
+
+/* START OF SECTION STYLES */
+
+.payment-form{
+    padding-top: 78px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* END OF SECTION STYLES */
