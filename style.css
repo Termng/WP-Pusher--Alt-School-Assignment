@@ -368,3 +368,39 @@ button{
 
 
 /* END OF RIGHT SECTION STYLES */
+
+
+@media (max-width: 976px) {
+    .navLinks{
+        display: none;
+    }
+    .box{
+        flex-direction: column;
+        width: 100%;
+        gap: 6rem;
+    }
+    .left{
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 auto;
+        padding-inline: 2rem;
+    }
+    .right{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    
+}
+
+@media (max-width: 490px) {
+    .name-side{
+        flex-wrap: wrap;
+    }
+    .emailSize{
+        max-width: 100%;
+    }
+    nav{
+        padding: 30px 10px;
+    }
+}
